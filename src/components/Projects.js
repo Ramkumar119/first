@@ -5,36 +5,55 @@ import project2pic from "../assets/project2pic.jpg";
 import project3pic from "../assets/project3pic.jpg";
 import { FaArrowRight } from "react-icons/fa";
 
-function Projects() {
+function Project() {
   const projects = [
-    { id: 1, name: "Project One", img: project1pic, desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt." },
-    { id: 2, name: "Project Two", img: project2pic, desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt." },
-    { id: 3, name: "Project Three", img: project3pic, desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt." },
+    {
+      id: 1,
+      name: "Project One",
+      img: project1pic,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      id: 2,
+      name: "Project Two",
+      img: project2pic,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    },
+    {
+      id: 3,
+      name: "Project Three",
+      img: project3pic,
+      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    }
   ];
 
   return (
-    <section id="projects" className="projects">
-      <h2 className="projects-title">My Projects</h2>
-      
-      <div className="projects-container">
-        {projects.map((project) => (
-          <div className="project-card" key={project.id}>
-            <img src={project.img} alt={project.name} className="project-img" />
-            <div className="project-overlay">
-              <h3>{project.name}</h3>
-              <p>{project.desc}</p>
+    <section id="projects" className="projects-section">
+      {projects.map((project) => (
+        <div key={project.id} className="project">
+          <div className="project-image-container">
+            <img src={project.img} alt={project.name} className="project-image" />
+
+            <div className="overlay">
+              <h2 className="project-title">{project.name}</h2>
+              <div className="description">
+                <p>{project.desc}</p>
+              </div>
+              <div className="water-effect"></div>
             </div>
           </div>
-        ))}
-      </div> 
+        </div>
+      ))}
+
       <div className="see-more">
         <a href="#more-projects">
           <p>See more projects</p>
           <FaArrowRight className="arrow-icon" />
         </a>
       </div>
+
     </section>
   );
 }
 
-export default Projects;
+export default Project;
