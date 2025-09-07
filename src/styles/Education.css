@@ -1,0 +1,77 @@
+.education-section {
+  background: #f8fbff; /* very light blue */
+  color: #334155; /* dark gray text */
+  padding: 50px 20px;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 28px;
+  color: #0369a1; /* blue */
+  margin-bottom: 20px;
+}
+
+.education-content,
+.skills-content,
+.experience-content {
+  max-width: 1000px;
+  margin: 0 auto 40px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.education-item,
+.skill-item,
+.experience-item {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.education-item:hover,
+.skill-item:hover,
+.experience-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+}
+
+.education-item h3,
+.skill-item h4,
+.experience-item h4 {
+  color: #0284c7; /* skyblue */
+  margin-bottom: 10px;
+}
+
+.education-item p,
+.skill-item p,
+.experience-item p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+@media (max-width: 768px) {
+  .section-title {
+    font-size: 24px;
+  }
+
+  .education-item h3,
+  .skill-item h4,
+  .experience-item h4 {
+    font-size: 18px;
+  }
+
+  .education-item p,
+  .skill-item p,
+  .experience-item p {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 480px) {
+  .section-title {
+    font-size: 20px;
+  }
+}

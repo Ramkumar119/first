@@ -3,6 +3,9 @@ import Navbar from "./components/Navbar";
 import Home from "./components/Home";
 import About from "./components/About";
 import Projects from "./components/Projects";
+import Education from "./components/Education";
+import Footer from "./components/Footer";
+import Contact from "./components/Contact";
 function App() {
   return (
     <>
@@ -10,6 +13,9 @@ function App() {
       <Home />
       <About/>
       <Projects/>
+      <Education/>
+      <Contact/>
+      <Footer />
     </>
   );
 }
