@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/Ramkumar119/first.git/static/css/main.cc38f89d.css",
+    "main.js": "/Ramkumar119/first.git/static/js/main.0521294c.js",
+    "static/js/453.8b647cc0.chunk.js": "/Ramkumar119/first.git/static/js/453.8b647cc0.chunk.js",
+    "static/media/MyResume.pdf": "/Ramkumar119/first.git/static/media/MyResume.afc2876c156755b4e12c.pdf",
+    "static/media/project3pic.jpg": "/Ramkumar119/first.git/static/media/project3pic.ade5f5caae02d92d5f3c.jpg",
+    "static/media/BackgroundHome.jpg": "/Ramkumar119/first.git/static/media/BackgroundHome.de0241fb3eb1f74baffa.jpg",
+    "static/media/project2pic.jpg": "/Ramkumar119/first.git/static/media/project2pic.ebaaa8f48bc56e8d776d.jpg",
+    "static/media/project1pic.jpg": "/Ramkumar119/first.git/static/media/project1pic.d31e0b8478c03b7c3fa9.jpg",
+    "static/media/profile.jpg": "/Ramkumar119/first.git/static/media/profile.1ccee4c8e7977526316d.jpg",
+    "index.html": "/Ramkumar119/first.git/index.html",
+    "main.cc38f89d.css.map": "/Ramkumar119/first.git/static/css/main.cc38f89d.css.map",
+    "main.0521294c.js.map": "/Ramkumar119/first.git/static/js/main.0521294c.js.map",
+    "453.8b647cc0.chunk.js.map": "/Ramkumar119/first.git/static/js/453.8b647cc0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc38f89d.css",
+    "static/js/main.0521294c.js"
+  ]
+}
